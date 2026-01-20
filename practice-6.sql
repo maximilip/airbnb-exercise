@@ -15,4 +15,9 @@
 -- | Brighton Park          | 678      |
 -- | Burnside               | 10       |
 
-
+SELECT neighborhood
+FROM listings
+INNER JOIN
+GROUP BY neighborhood
+LIMIT 13
+;
